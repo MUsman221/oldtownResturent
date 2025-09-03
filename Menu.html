@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <!----------------------------------           Header     --------------------------------->
+
+    <header class="bg-dark container-fluid" style="position: fixed;">
+        <nav class="navbar navbar-expand-md  justify-content-end  container">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link text-white fw-bold ms-2" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white fw-bold ms-2" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white fw-bold ms-2" href="Menu.html">Menu</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white fw-bold ms-2" href="#" id="navbarDropdown"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pages
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Services</a></li>
+                        <li><a class="dropdown-item" href="#">Booking</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Our Team</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white fw-bold ms-2" href="Contact.html" tabindex="-1"
+                        aria-disabled="true">Contact</a>
+                </li>
+                <button class="btn bg-warning ms-2 text-white fw-bold" onclick="BookATable()">Book A Table</button>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main class="flex-grow-1" style="background-color: rgb(193, 207, 207);">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class=" relative overflow-hidden">
+                        <img src="./Assest/Menu/Tartare_1_1400x.jpg" class="absolute top-0 left-0 " width="105%" alt=""
+                            height="500px
+                                ">
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <section>
+
+
+            </section>
+            <div class="row mt-4">
+                <div class="col">
+                    <div class="text-center  mb-4 fw-bold">
+                        <p>Our food menus are tailored appropriately to season and availbity. Changing daily, we use the
+                            highest quality of produce, cooked with care.</p>
+                        <p>Our wine list has a focus on European producers alongside a smattering from the new world. We
+                            work with wine makers who produce high quality wine with minimal intervention - ranging from
+                            classics to the unusual.</p>
+                        <p>The beer list is dominated by British breweries, particularly those from the thriving London
+                            scene. We work closely with five points brewery who produce our house pale ale 'So Solid
+                            Brew'</p>
+                        <p>For group bookings of 7+ please see our set menu below. This changes seasonally and showcases
+                            the best of our a la carte offering.</p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Button -->
+            <section class="text-center mb-5 mt-3">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="border">
+                            <!-- <a href="https://cdn.shopify.com/s/files/1/0402/6741/5709/files/Lunch_31.05_194b8caa-cda9-4c51-8ee2-0e6c64737f62.pdf?v=1685532897"
+                                class="inline-flex text-dark " target="_blank" style="text-decoration: none;"> -->
+
+                                <span class="fw-bold text-dark btn " >Lunch &amp; Dinner</span>
+
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <div class="border border-tan p-1">
+                            <!-- <a href="https://cdn.shopify.com/s/files/1/0402/6741/5709/files/Sunday_21.05.pdf?v=1684667527" -->
+                                <!-- style="text-decoration: none; " class="inline-flex text-dark fs-50" target="_blank" > -->
+<button class="fw-bold btn ">Sunday</button>
+                                <!-- <button class="fw-bold">Sunday</span> -->
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row 2 Button -->
+                <div class="row mb-4">
+                    <div class="col-6">
+                        <div class="border border-tan p-1">
+                            <!-- <a href="https://cdn.shopify.com/s/files/1/0402/6741/5709/files/MAY_Group_Bookings_2023_dd1810ec-c55d-4306-a01c-80df08320dcc.pdf?v=1683810468"
+                                class="inline-flex text-dark" target="_blank" style="text-decoration: none;"> -->
+
+                                <span class="fw-bold">Group Bookings</span>
+
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="border border-tan p-1">
+                            <!-- <a href="https://cdn.shopify.com/s/files/1/0402/6741/5709/files/Fathers_Day_2023.pdf?v=1684404026" -->
+                                <!-- class="inline-flex text-dark" target="_blank" style="text-decoration: none;"> -->
+
+                                <span class="fw-bold">Fathers' Day 2023</span>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <!--------------------------------------  iMAGES    -------------------------->
+
+            <div id="shopify-section-menus-images" class="shopify-section">
+
+                <section class="mb-10 lg:mb-20">
+                    <div class="max-w-4xl mx-auto px-10 mb-2 space-y-10 lg:space-y-20 text-center">
+                        <!-- 1 -->
+                        <div>
+
+
+                            <div class="relative overflow-hidden w-full">
+                                <img src="./Assest/Menu/Tartare_1_1400x.jpg" class="absolute mb-3 top-0 left-0 w-full"
+                                    width="80%" height="400px">
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div>
+                            <div class="relative overflow-hidden w-full">
+                                <img src="./Assest/Menu/Roast_Set_Up_2_1200x.jpg"
+                                    class="absolute mb-3 top-0 left-0 w-full" width="80%" alt="" height="400px">
+                            </div>
+                        </div>
+                        <!--3  -->
+                        <div>
+                            <div class="relative overflow-hidden w-full">
+                                <img src="./Assest/Menu/Latkes_1_1400x.jpg" class="absolute mb-3 top-0 left-0 w-full"
+                                    width="80%" alt="" height="400px">
+                            </div>
+                        </div>
+
+                        <!-- 5 -->
+                        <div>
+                            <div class="relative overflow-hidden w-full">
+                                <img src="./Assest/Menu/HaddockcMacaroni_2_1400x.jpg"
+                                    class="absolute top-0 left-0 w-full mb-3" width="80%" alt="" height="400px">
+                            </div>
+                        </div>
+
+                        <!-- iMAGES 6 -->
+                        <div>
+                            <div class="relative overflow-hidden w-full">
+                                <img src="./Assest/Menu/Livers_1_1400x.jpg" class=" mb-3 absolute top-0 left-0 w-full"
+                                    width="80%" alt="" height="400px">
+
+                            </div>
+                        </div>
+                        <!-- Image 7 -->
+
+                        <div>
+                            <div class="relative overflow-hidden w-full">
+                                <img src="./Assest/Menu/Hamhock_Terrine_2_1400x.jpg"
+                                    class="absolute top-0 left-0 w-full mb-3" width="80%" alt="" height="400px">
+
+                            </div>
+
+                        </div>
+                        <!-- Image 8 -->
+
+                        <div>
+                            <div class="relative overflow-hidden w-full">
+                                <img src="./Assest/Menu/Boiled_eggs_2_1400x.jpg"
+                                    class="mb-3  absolute top-0 left-0 w-full" width="80%" alt="" height="400px">
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section>
+
+
+            </div>
+        </div>
+    </main>
+
+    <div class="bg-dark">
+        <div class="row container">
+            <div class="col">
+                <footer class="fw-bold text-white text-center"> &copy; 2023.All Rights Reserved.</footer>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

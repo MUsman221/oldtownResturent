@@ -1,0 +1,23 @@
+body{
+    /* background-image: url(../Assest//123.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#img {
+    animation: imgRotate 30s linear infinite;
+  }
+  
+  @keyframes imgRotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  #bookingForm{
+    background-color: rgb(172, 209, 9);
+    min-height: 96.4vh;
+  } 
+  /* #booking{
+    background-color: rgb(172, 209, 9);
+    min-height: 98.7vh;
+  }  */
